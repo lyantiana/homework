@@ -36,4 +36,12 @@ console.log(joinStr);
 const res = Math.round(Math.random()*101);
 console.log(res);
 
+Задача 5 
+const arr = [1, 2, 3];
+console.log(arr.length);
+const newArr = arr.map(function(item, index, array) {
+  return item;
+});
+console.log(newArr);
+
 

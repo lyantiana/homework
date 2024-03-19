@@ -1,5 +1,5 @@
 # homework 
-10.3
+Модуль 10
 Задача 1
 const result = +prompt("Please enter sign");
 typeof result
@@ -24,4 +24,16 @@ if (typeof x === "number") {
 } else {
   console.log("Тип x не определен")
 }
+
+Задача 3
+const str = 'Hello';
+const splitStr = str.split('');
+const reverseStr = splitStr.reverse();
+const joinStr = reverseStr.join('');
+console.log(joinStr);
+
+Задача 4 
+const res = Math.round(Math.random()*101);
+console.log(res);
+
 
